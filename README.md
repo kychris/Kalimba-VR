@@ -11,4 +11,6 @@ Technologies used
 
 Demo Video (Clickable)
 
-* [![](http://img.youtube.com/vi/Xo5qzk8Ul-M/0.jpg)](http://www.youtube.com/watch?v=Xo5qzk8Ul-M "Demo Video")
+[![](http://img.youtube.com/vi/Xo5qzk8Ul-M/0.jpg)](http://www.youtube.com/watch?v=Xo5qzk8Ul-M "Demo Video")
+
+
