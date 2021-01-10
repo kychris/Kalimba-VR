@@ -9,7 +9,7 @@ Technologies used
 * Oculus Quest
 
 
-Demo Video (Clickable)
+Demo Video (Right click image to open in new tab)
 
 [![](http://img.youtube.com/vi/Xo5qzk8Ul-M/0.jpg)](https://youtu.be/Xo5qzk8Ul-M?t=14 "Demo Video")
 
