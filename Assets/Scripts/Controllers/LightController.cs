@@ -11,19 +11,19 @@ public class LightController : MonoBehaviour
     void Start()
     {
         light = gameObject.GetComponent<Light>();
-        light.intensity = 0; //default dark
+
+        // Default dark
+        light.intensity = 0;
     }
 
-    public void StartFadeIn() { 
-        StartCoroutine("FadeIn"); 
-    }
-    IEnumerator FadeIn() 
+    public void StartFadeIn() { StartCoroutine("FadeIn"); }
+    IEnumerator FadeIn()
     {
         float BlendVal = 0;
         float tParam = 0.0f;
         float speed = 0.5f;
 
-        while (tParam < 1) 
+        while (tParam < 1)
         {
             tParam += Time.deltaTime * speed; //This will increment tParam based on Time.deltaTime multiplied by a speed multiplier
             BlendVal = Mathf.Lerp(0f, 1.5f, tParam);
@@ -32,15 +32,14 @@ public class LightController : MonoBehaviour
         }
     }
 
-
     public void StartFadeOut() { StartCoroutine("FadeOut"); }
-    IEnumerator FadeOut() 
+    IEnumerator FadeOut()
     {
         float BlendVal = 1.5f;
         float tParam = 0.0f;
         float speed = 0.5f;
 
-        while (tParam < 1) 
+        while (tParam < 1)
         {
             tParam += Time.deltaTime * speed; //This will increment tParam based on Time.deltaTime multiplied by a speed multiplier
             BlendVal = Mathf.Lerp(1.5f, 0, tParam);

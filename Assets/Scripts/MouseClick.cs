@@ -24,9 +24,10 @@ public class MouseClick : MonoBehaviour
     // this object was clicked - do something
     void OnMouseDown()
     {
-        Debug.Log("hello"+keyNum);
+        Debug.Log("hello" + keyNum);
         audioData.Play(0);
-        if (keyNum == 1 || keyNum == 2) {
+        if (keyNum == 1 || keyNum == 2)
+        {
             timeline.Play();
         }
     }
